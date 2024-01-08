@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirect Button</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="redirectToWebsite()">Click Here</button>
+
+    <script>
+        function redirectToWebsite() {
+            var websiteUrl = 'https://minnesota.tylertech.cloud/DownloadResource.ashx?RID=4df7d320-8d9a-4cee-a9ee-4b94ef8128b8'; // Replace this URL
+            
+            // Redirect to the configured website
+            window.location.href = websiteUrl;
+        }
+    </script>
+</body>
+</html>
